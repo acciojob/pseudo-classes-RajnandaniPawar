@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+:root{
+	background-color:  rgb(135, 206, 235);
+}
+
+artical p:first-child{
+	background-color:balck;
+	color:white;
+}
+
+artical p:nth child(2){
+	color:inherit;
+}
+
+artical p:last-child{
+	color:red;
+}
+
+ul li{
+	background-color:grey;
+	width:50%;
+	padding:10px;
+}
+
+ul li:nth-child(odd){
+	background:white;
+}
+
+ul li:first-child,
+ul li:last-child{
+	font-size:22px;
+}
+
+ul li:nth-last-child(3){
+	background-color:pink;
+}
